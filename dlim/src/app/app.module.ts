@@ -4,20 +4,44 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import { environment } from './../environments/environment';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BsNavbarComponent } from './bs-navbar/bs-navbar.component';
+import { HomeComponent } from './home/home.component';
+import { AboutComponent } from './about/about.component';
+import { BlogComponent } from './blog/blog.component';
+import { ServicesComponent } from './services/services.component';
+import { WebConsultComponent } from './web-consult/web-consult.component';
+import { TutoringComponent } from './tutoring/tutoring.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BsNavbarComponent,
+    HomeComponent,
+    AboutComponent,
+    BlogComponent,
+    ServicesComponent,
+    WebConsultComponent,
+    TutoringComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-    AngularFireAuthModule
+    AngularFireAuthModule,
+    RouterModule.forRoot([
+      { path: '', component: HomeComponent },
+      { path: 'about', component: AboutComponent },
+      { path: 'blog', component: BlogComponent },
+      { path: 'services', component: ServicesComponent },
+      { path: 'web-consult', component: WebConsultComponent },
+      { path: "tutoring", component: TutoringComponent },
+
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
