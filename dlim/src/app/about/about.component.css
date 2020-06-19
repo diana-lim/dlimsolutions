@@ -1,7 +1,10 @@
 
 body {
     width: 100%;
+    justify-content:center;
+   
 }
+
 h1 {
     padding-top: 10%;
     padding-bottom: 30px;
@@ -10,4 +13,7 @@ h1 {
 .about-us {
     width: 50%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }

@@ -1,3 +1,7 @@
+body {
+  
+}
+
 .carousel-caption{
     padding-bottom: 20%;
 }
@@ -10,4 +14,29 @@ img {
 
 h1 {
     padding-bottom: 5%;
+}
+
+h2 {
+    
+    font-size: 45px;
+    font-family: 'Mukta', ser if;
+    color: #1e3954;
+}
+
+h5 {
+    color: gray;
+    padding-bottom: 20px;
+    
+}
+
+#description {
+    padding-top: 100px;
+}
+
+.about {
+    text-align: center;
+    padding-top: 5%;
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-bottom: 10%;
 }
