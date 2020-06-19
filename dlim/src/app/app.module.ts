@@ -16,6 +16,7 @@ import { BlogComponent } from './blog/blog.component';
 import { ServicesComponent } from './services/services.component';
 import { WebConsultComponent } from './web-consult/web-consult.component';
 import { TutoringComponent } from './tutoring/tutoring.component';
+import { BsFooterComponent } from './bs-footer/bs-footer.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TutoringComponent } from './tutoring/tutoring.component';
     BlogComponent,
     ServicesComponent,
     WebConsultComponent,
-    TutoringComponent
+    TutoringComponent,
+    BsFooterComponent
   ],
   imports: [
     BrowserModule,
