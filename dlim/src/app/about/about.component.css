@@ -1,7 +1,7 @@
 
 body {
-    width: 100%;
-    justify-content:center;
+    
+    justify-content: center;
    
 }
 
@@ -15,5 +15,12 @@ h1 {
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    
+}
+
+.team {
+    padding-left:20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
 }
