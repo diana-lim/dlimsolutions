@@ -7,15 +7,14 @@ body {
 
 h1 {
     padding-top: 10%;
-    padding-bottom: 30px;
 }
 
-.about-us {
-    width: 50%;
+#about-us {
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 30px;
     
 }
 
