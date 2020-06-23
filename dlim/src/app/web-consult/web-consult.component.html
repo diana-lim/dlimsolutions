@@ -2,9 +2,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 
+<!---------------------------->
+<!--   HEADER JUMBOTRON     -->
+<!---------------------------->
+  
+
 <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Design or Develop</h1>
+      <h1 class="display-4">Design or Develop?</h1>
       <p class="lead">...</p>
       <p class="lead">We do both.</p>
     </div>
@@ -12,6 +17,31 @@
     <p class="lead">Tell us about your project below:</p>
   </div>
 
-  <div class="middle">
-    <button type="button" class="btn btn-primary btn-lg">Project Request</button>
-  </div>
+  <!---------------------------->
+  <!--    FORM INPUT AREA     -->
+  <!---------------------------->
+
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+            <input type="text" class="form-control" placeholder="Name">
+      <label for="exampleFormControlInput1">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Project Type</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Website Design</option>
+        <option>Website Development</option>
+        <option>Debugging</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Tell us about your project:</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="middle">
+        <button type="button" class="btn btn-primary btn-lg">Submit</button>
+      </div>
+  </form>
+

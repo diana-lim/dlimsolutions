@@ -10,8 +10,16 @@ p {
 }
 
 .middle {
-    height: 20vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+form {
+    width: 30%;
+    margin: auto;
+    border: 2px solid gray;
+    padding: 30px;
+    margin-bottom: 30px;
 }
