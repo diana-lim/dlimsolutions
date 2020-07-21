@@ -18,6 +18,7 @@ import { WebConsultComponent } from './web-consult/web-consult.component';
 import { TutoringComponent } from './tutoring/tutoring.component';
 import { BsFooterComponent } from './bs-footer/bs-footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
